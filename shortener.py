@@ -24,3 +24,4 @@ class Shortener(object):
 
 	def expand(self, token):
 		return self.urls.get(token, None)
+
